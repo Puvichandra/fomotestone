@@ -1,0 +1,122 @@
+
+
+
+@media (min-width: 360px) { 
+    .tokenheadposition {
+        position: relative;
+        top: -50px;
+        width: 100%;
+      
+    }
+
+    .tobeannouncePosition {
+        position: relative;
+        margin-top: 50%;
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        display: block;
+       
+    }
+
+}
+@media (min-width: 576px) { 
+    .tokenheadposition {
+        position: relative;
+        top: -100px;
+        width: 100%;
+      
+    }
+
+
+}
+@media (min-width: 768px) { 
+    .tokenheadposition{
+        position: relative;
+        top: -50px;
+       
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+
+    .tobeannouncePosition {
+        position: relative;
+        margin-top: 50%;
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        display: block;
+       
+    }
+}
+
+@media (min-width: 992px) { 
+    .tokenheadposition {
+        position: relative;
+        top: -150px;
+        width: 75%;
+        left: 300px;
+    }
+
+    .tobeannouncePosition {
+        position: absolute;
+        top:300px;
+        left:0;
+        width: 50%;
+  
+    }
+
+}
+@media (min-width: 1200px) { 
+    .tokenheadposition{
+        position: relative;
+        top: -50px;
+        width: 50%;
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
+    }
+    .tobeannouncePosition {
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        display: block;
+       
+    }
+}
+
+@media (min-width: 1400px) { 
+    .tokenheadposition {
+        position: relative;
+        top: -150px;
+        width: 60%;
+        left: auto;
+        right: auto;
+        display: block;
+    }
+
+    .tobeannouncePosition {
+        position: absolute;
+        top:auto;
+        bottom: auto;
+        left:0;
+        width: 100%;
+        transform: scale(60%);
+    }
+}
+
