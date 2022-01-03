@@ -50,15 +50,15 @@
 }
 
 
-@media (min-width: 769px) { 
+@media (min-width: 768px) { 
   .howtobuyposition{
     position: relative;
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-120px;
+    top:-70px;
    }
 
  .cardhowtobuy {
@@ -83,7 +83,7 @@
     margin-right: auto;
     align-items: center;
     display: block;
-    top:-120px;
+    top:-70px;
    }
 
  .cardhowtobuy {
@@ -95,7 +95,7 @@
          background:#693594;
  }  
  .card-info{
-  width:50%
+  width:80%
 }
 }
 @media (min-width: 1200px) { 

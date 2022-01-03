@@ -58,19 +58,24 @@
 }
 
 @media (min-width: 992px) { 
-    .tokenheadposition {
+    .tokenheadposition{
         position: relative;
-        top: -150px;
-        width: 75%;
-        left: 300px;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        
     }
-
     .tobeannouncePosition {
-        position: absolute;
-        top:300px;
-        left:0;
-        width: 50%;
-  
+        position: relative;
+        margin-top: 10%;
+        left:auto;
+        right:auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        display: block;
+       
     }
 
 }
@@ -88,7 +93,7 @@
     }
     .tobeannouncePosition {
         position: relative;
-        margin-top: auto;
+        margin-top: 18%;
         margin-bottom: auto;
         left:auto;
         right:auto;

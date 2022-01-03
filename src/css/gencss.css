@@ -1,12 +1,13 @@
 
 body{
   font-family: poppins,sans-serif;
+  background-color: #F4F5F6;
 }
 
 
 @media (min-width: 360px) { 
   .homesec {
-    background-image: url("../img/backgroundOne.png");
+    background-image: url("../img/mobi.jpg");
       /* Center and scale the image nicely */
       background-position: center;
       background-repeat: no-repeat;
@@ -14,6 +15,23 @@ body{
       margin-top: -25%;
       height: 150vh;
    }
+
+   .homesec-yt{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:1%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:1%;
+  }
+
 
    .howtobuysec {
     background-color: #F4F5F6;
@@ -32,7 +50,7 @@ body{
 }
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmapmob.jpg");
+  background-image: url("../img/roadmapmob.png");
   position: relative;
   background-repeat: no-repeat;
   margin-left: auto;
@@ -54,7 +72,7 @@ body{
 
 @media (min-width: 576px) { 
   .homesec {
-    background-image: url("../img/backgroundOne.png");
+    background-image: url("../img/mobi.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
@@ -78,16 +96,35 @@ body{
 }
 
 @media (min-width: 768px) { 
+ 
+
   .homesec {
     width:100%;
-    background-image: url("../img/backgroundOne.png");
-      background-position: center;
+    background-image: url("../img/bb.jpg");
+      background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
-     margin-top: -60px;
+     margin-top: 15px;
      
       height: 115vh;
   }
+
+  .homesec-yt{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:90%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:1%;
+  }
+
   .howtobuysec {
     background-color: #F4F5F6;
     position: relative;
@@ -108,13 +145,13 @@ body{
 
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmapmob.jpg");
+  background-image: url("../img/roadmapmob.png");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  width:105vw;
-  margin-left: -6%;
-  height: 250vh;
+  background-position:center;
+  background-color: #DCDDDE;
+  height: 230vh;
   }
 
 .kfsec {
@@ -129,41 +166,80 @@ body{
 @media (min-width: 992px) { 
   .homesec {
     width:100%;
-    background-image: url("../img/backgroundOne.png");
+    background-image: url("../img/bb.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
-      height: 100vh;
+      height: 140vh;
    }
   .tokensec {
      background-image: url("../img/withoutdot.jpg");
     position: relative;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 
 }
 
+.howtobuysec {
+  background-color: #F4F5F6;
+  position: relative;
+  height: 110vh;
+  top:0px;
+  
+}
+
+
 .roadmapsec {
   margin-top: 5px;
-  background-image: url("../img/roadmapmob.jpg");
+  background-image: url("../img/roadmappic.jpg");
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   width:105vw;
   margin-left: -5%;
-  height: 250vh;
+  height: 150vh;
   }
+
+  .kfsec {
+    background-image: url("../img/withoutdot.jpg");
+   position: relative;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 120vh;
+ }
 }
 
 @media (min-width: 1200px){
-.homesec {
-    background-image: url("../img/backgroundOne.png");
+
+  .homesec {
+    /* background-image: url("../img/ff.jpg"); */
+    background-image: url("../img/bb.jpg");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: auto;
-      height: 145vh;
+      background-size: cover;
+      height: 100vh;
+      background-color: #F4F5F6;
+    
    }
+
+   .homesec-yt{
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:40%;
+  }
+
+  .homesec-yb{
+  
+    position:absolute;
+    bottom:0;
+    right:0;
+    width:40%;
+  }
+
   
   .roadmapsec {
     margin-top: 5px;
@@ -203,21 +279,38 @@ body{
 
 @media (min-width: 1400px){
   .homesec {
-      background-image: url("../img/backgroundOne.png");
+      /* background-image: url("../img/ff.jpg"); */
+      background-image: url("../img/bb.jpg");
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto;
-        margin-top: -65px;
+        background-size: cover;
         height: 100vh;
+      
      }
     
+     .homesec-yt{
+    
+      position:absolute;
+      top:0;
+      left:0;
+      width:45%;
+    }
+
+    .homesec-yb{
+    
+      position:absolute;
+      bottom:0;
+      right:0;
+      width:45%;
+    }
+
     .roadmapsec {
       
       margin-top: 5px;
       background-image: url("../img/roadmappic.jpg");
       position: relative;
       background-repeat: no-repeat;
-      width: 100vw;
+     
       background-size: cover;
       background-position: center;
       height: 210vh;
@@ -245,7 +338,8 @@ body{
       background-image: url("../img/withoutdot.jpg");
       position: relative;
       background-repeat: no-repeat;
-      background-size: cover;
-      height: 110vh;
+      background-size: auto;
+      background-position: center;
+      height: 100vh;
     }
   }

@@ -41,18 +41,18 @@
 @media (min-width: 992px) { 
     .roadmapposition{
         position: relative;
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
         display: block;
-        top:-50px;
+        top:-80px;
     }
 }
 @media (min-width: 1200px) { 
     .roadmapposition{
         position: relative;
-        width: 80%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
         align-items: center;

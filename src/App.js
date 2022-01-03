@@ -7,6 +7,8 @@ import Token from "./components/Tokenomics";
 import Howtobuy from "./components/Howtobuy";
 import Knowfounder from "./components/Knowfounder";
 import Ftcomp from "./components/Footercomp";
+import Ytimg from "../src/img/yeltop.png";
+import Ybimg from "../src/img/yelbottom.png";
 import "./css/gencss.css";
 
 
@@ -21,9 +23,11 @@ function App() {
     <Navbar />
      <Homecenter 
       img={fomocaption}
+      yellowtop={Ytimg}
+      yellowbottom={Ybimg}
       txt="FOMO Pot is a community driven token on the binance smart chain which grows and multiplies in your wallet just  by holding.
 We will reward all the holders through reflections in FOMO Pot tokens. Besides that loyal members who continue to hold the tokens will be rewarded via giveaways.
-"
+" 
     />
     </section>
 

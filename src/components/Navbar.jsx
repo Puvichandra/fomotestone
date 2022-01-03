@@ -20,16 +20,17 @@ return (
           <a className="nav-link text-white active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item ${nav-it}">
+          <a className="nav-link text-white" href="#howto">How To Buy</a>
+        </li>
+        <li className="nav-item ${nav-it}">
           <a className="nav-link text-white" href="#tok">Tokenomics</a>
         </li>
         <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#roadmap">Whitepaper</a>
+          <a className="nav-link text-white" href="#roadmap">Roadmap</a>
         </li>
+       
         <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#howto">Team</a>
-        </li>
-        <li className="nav-item ${nav-it}">
-          <a className="nav-link text-white" href="#">Dapp</a>
+          <a className="nav-link text-white" href="#">Team</a>
         </li>
 
         <a  type='button' className="text-white px-3 my-2 mx-2" style={{ backgroundColor:'#693594', borderRadius:'25px',  fontSize:"1.5em", textDecoration:'none' }}>
