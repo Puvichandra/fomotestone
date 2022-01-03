@@ -116,9 +116,9 @@
     }
 
     .tobeannouncePosition {
-        position: absolute;
-        top:auto;
-        bottom: auto;
+        position: relative;
+        margin-top:auto;
+        margin-bottom: auto;
         left:0;
         width: 100%;
         transform: scale(60%);

@@ -12,12 +12,12 @@ export default function SocialFollow() {
   return (
     <div className="social-container">
       
-      <a
+      {/* <a
         href="https://www.youtube.com/c/jamesqquick"
         className="youtube social"
       >
         <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
+      </a> */}
       <a
         href="https://www.facebook.com/learnbuildteach/"
         className="facebook social"
