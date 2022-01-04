@@ -13,7 +13,7 @@ body{
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: -25%;
-      height: 150vh;
+      height: 170vh;
    }
 
    .homesec-yt{
@@ -27,7 +27,7 @@ body{
   .homesec-yb{
   
     position:absolute;
-    bottom:-50%;
+    bottom:-75%;
     right:0;
     width:100%;
   }
