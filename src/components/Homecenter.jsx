@@ -14,14 +14,16 @@ document.execCommand("copy");
 
 function Homecenter(props){
     return (
+      
      
           <div className='container-fluid text-center'>
-          
+       
             <div className='homecen text-center'>
+            <img  className="homesec-yt" src={props.yellowtop}/>
+            <img  className="homesec-yb" src={props.yellowbottom}/>
      
           <img  className="fomosize" src={props.img}/>
-          <img  className="homesec-yt" src={props.yellowtop}/>
-          <img  className="homesec-yb" src={props.yellowbottom}/>
+        
           <h5 className='text-white' style={{fontSize:"1em"}}>{props.txt}</h5> 
           <img className="fomosticker mb-4" src={gifimg} />
 

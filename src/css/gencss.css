@@ -7,7 +7,7 @@ body{
 
 @media (min-width: 360px) { 
   .homesec {
-    background-image: url("../img/mobi.jpg");
+    background-image: url("../img/bb.png");
       /* Center and scale the image nicely */
       background-position: center;
       background-repeat: no-repeat;
@@ -19,17 +19,17 @@ body{
    .homesec-yt{
     
     position:absolute;
-    top:0;
+    top:8%;
     left:0;
-    width:1%;
+    width:100%;
   }
 
   .homesec-yb{
   
     position:absolute;
-    bottom:0;
+    bottom:-50%;
     right:0;
-    width:1%;
+    width:100%;
   }
 
 
@@ -72,7 +72,7 @@ body{
 
 @media (min-width: 576px) { 
   .homesec {
-    background-image: url("../img/mobi.jpg");
+    background-image: url("../img/bb.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
@@ -100,7 +100,7 @@ body{
 
   .homesec {
     width:100%;
-    background-image: url("../img/bb.jpg");
+    background-image: url("../img/bb.png");
       background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -166,7 +166,7 @@ body{
 @media (min-width: 992px) { 
   .homesec {
     width:100%;
-    background-image: url("../img/bb.jpg");
+    background-image: url("../img/bb.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: auto;
@@ -215,7 +215,7 @@ body{
 
   .homesec {
     /* background-image: url("../img/ff.jpg"); */
-    background-image: url("../img/bb.jpg");
+    background-image: url("../img/bb.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -280,7 +280,7 @@ body{
 @media (min-width: 1400px){
   .homesec {
       /* background-image: url("../img/ff.jpg"); */
-      background-image: url("../img/bb.jpg");
+      background-image: url("../img/bb.png");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
