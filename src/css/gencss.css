@@ -7,9 +7,9 @@ body{
 
 @media (min-width: 360px) { 
   .homesec {
-    background-image: url("../img/bb.png");
+    background-image: url("../img/m1.png");
       /* Center and scale the image nicely */
-      background-position: center;
+      background-position:center;
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: -25%;
