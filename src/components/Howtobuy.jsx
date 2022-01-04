@@ -5,11 +5,11 @@ import howtobuy from "../img/how2buy.png";
 function Howtobuy() {
   return (
     <div className="container-fluid" style={{marginLeft:"auto",marginRight:"auto"}}>
-      <img className="howtobuyposition" src={howtobuy} />
+      <img className="howtobuyposition reveal fade-right" src={howtobuy} />
 
       <div style={{ marginTop: "25px" }}>
         <div
-          className="card  ms-auto me-auto text-center py-2 mt-3 text-white card-info"
+          className="card  ms-auto me-auto text-center py-2 mt-3 text-white card-info reveal fade-left"
           style={{
             borderRadius: "30px",
             backgroundColor: "#693594",

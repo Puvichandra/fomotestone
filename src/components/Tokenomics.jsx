@@ -9,7 +9,7 @@ function Tokenomics(){
      
   <div className="container-fluid" style={{marginLeft:"auto",marginRight:"auto"}}>
   
- <img className="tokenheadposition" src={tokenheadpng}/>
+ <img className="tokenheadposition reveal fade-right" src={tokenheadpng}/>
  
   
   <img className='tobeannouncePosition' src={tobeannounce}/>

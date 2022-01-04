@@ -8,10 +8,10 @@ function Knowfounder(){
     return (
   
  <div className="container-fluid kycard">
- <img className="kyfposition" src={kf}/>
+ <img className="kyfposition reveal fade-right" src={kf}/>
   <div className="row rowkyf">
     <div className="col-md-11 col-sm-6 item text-center mx-auto">
-      <div className="card item-card card-block ">
+      <div className="card item-card card-block reveal fade-left">
       
     <img className="image-cropper" src={founder} alt="Photo of sunset"/>
         <h4 className="item-card-title mt-3 mb-3">Ayush-Founder/CEO</h4>
